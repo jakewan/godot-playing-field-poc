@@ -1,0 +1,28 @@
+[gd_scene format=2]
+
+[node name="BottomPanel" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_bottom = -600.0
+rect_min_size = Vector2( 0, 120 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="UpperLeftButton" type="Button" parent="."]
+margin_left = 23.5
+margin_top = 20.5
+margin_right = 117.5
+margin_bottom = 40.5
+text = "Upper Left"
+
+[node name="BottomRightButton" type="Button" parent="."]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -121.0
+margin_top = -42.5
+margin_right = -25.0
+margin_bottom = -22.5
+text = "Bottom Right"
